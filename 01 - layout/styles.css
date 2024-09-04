@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imagens/mohammad-mardani-ptY9rn7kF_I-unsplash.jpg');
+    background-size: cover; /* adicionado para que a imagem cubra toda a tela */
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: multiply; /* efeito de multiplicação para dar um efeito de vidro */
+    color: white;
+    height: 300vh;
+  }
+
+.container {
+	width: 80%;
+	margin: 40px auto;
+}
+
+.conteudo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.image {
+	width: 16%;
+	margin: 20px;
+    border-radius: 10%;
+}
+
+.texto {
+	width: 50%;
+	margin: 20px;
+    background-color: rgba(0, 0, 0, 0.713);
+    padding: 30px;
+    border-radius: 5%;
+}
+
+.imagens{
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 1px #0000003a;
+}
+
+
+
+h2 {
+	margin-top: 0;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #ccc;
+	margin: 20px 0;
+}

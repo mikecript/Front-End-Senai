@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #1e60b1;
+}
+
+#topo{
+    background-color: orange;
+    width: 99.1vw;
+    justify-content: center;
+    padding: 10px;
+}
+
+#topo>ul{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+#topo>ul>li{
+    text-decoration: none;
+    margin-left: 18px;
+    list-style-type: none;
+}
+
+.topo-item{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px #00000033;
+    font-weight: 900;
+}
+
+.topo-item:hover{
+    color: #194d9b;
+    transition: .4s;
+}
+
+#logo-senai{
+    width: 30%;
+    margin-left: 20px;
+}
+
+#menu{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e1e1;
+    width: 99.1vw;
+}
+
+#menu>nav{
+    width: 98vw;
+    text-align: end;
+    margin-right: 100px;
+}
+
+#menu-itens>a{
+    margin-left: 30px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #00000088;
+    text-decoration: none;
+    font-weight: 900;
+    
+}
+
+#menu-itens>a:hover{
+    text-shadow: 1px 1px 1px #0000007b;
+    transition: .4s;
+    color: #144a90;
+}
+
+
+#corpo{
+    display: inline-flex;
+    width: 99.1vw;
+    background-image: url('img/javier.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    justify-content: center;
+
+}
+
+#cursos{
+    width: 20vw;
+    padding: 20px;
+    text-align: center;
+    margin: 100px 0px 100px 0px;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 50px;
+    box-shadow: 1px 1px 1px #00000018;
+
+
+}
+
+#cursos>p{
+    margin-top: 30px;
+}
+
+#cursos>button{
+    background-color: #4280cb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#cursos>button:hover{
+    background-color: #4b90e5;
+    color: black;
+    transition: .4s;
+}
+
+#nota-mec{
+    width: 20vw;
+    padding: 20px;
+    text-align: center;
+    margin: 100px 0px 100px 0px;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 50px;
+    box-shadow: 1px 1px 1px #00000018;
+
+}
+
+#nota-mec>img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80px;
+}
+
+#nota-mec>p{
+    margin-bottom: 52px;
+}
+
+.marker{
+    color: orange;
+}
+
+#aulas{
+    width: 30vw;
+    padding: 20px;
+    text-align: center;
+    margin: 100px 0px 100px 0px;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 50px;
+    box-shadow: 1px 1px 1px #00000018;
+
+
+}
+
+#video{
+    width: 400px;
+    margin-top: 10px;
+}
+
+#conteudo{
+    width: 70vw;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 1px #00000018;
+    border-radius: 0px 0px 50px 50px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#historia{
+    width: 600px;
+    text-align: justify;
+    margin: auto;
+}
+
+#historia>h4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14pt;
+}

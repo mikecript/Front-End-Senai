@@ -1,0 +1,27 @@
+main>section{
+    background-color: lightblue;
+    padding: 50px;
+    height: 20vh;
+}
+
+.img{
+    border-radius: 50%;
+
+}
+
+#img2{
+    position: absolute;
+    left: 1700px;
+    bottom: 750px;
+}
+
+#img3{
+    position: fixed;
+    left: 1300px;
+    bottom: 300px;
+}
+
+#img4{
+    position: sticky;
+    
+}

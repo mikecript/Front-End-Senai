@@ -1,0 +1,159 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.mapa-risco {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mapa-risco h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container {
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.conteudo {
+    position: relative;
+}
+
+.circulos-categorias {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.circulo-item {
+    margin-bottom: 20px;
+    overflow: hidden; /* Clearfix to handle floats */
+}
+
+.circulo {
+    border-radius: 50%;
+    background-color: #3498db;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grande {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.medio {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.pequeno {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.descricao-circulo {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.categorias {
+    float: right;
+    width: 45%;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.categoria {
+    margin-bottom: 13px;
+}
+
+.categoria p {
+    margin: 30px;
+    font-size: 16px;
+
+}
+
+.cor {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 10px;
+    float: left;
+}
+
+.quimico { background-color: #e74c3c; }
+.acidente { background-color: #3498db; }
+.biologico { background-color: #996931; }
+.fisico { background-color: #27ae60; }
+.ergonomico { background-color: #f1c40f; }
+
+.exemplos {
+    clear: both;
+    margin-top: 50px;
+}
+
+.exemplos h2 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.imagens {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.imagens img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px #0000004b;
+    border: 3px solid black;
+}
+
+.logos{
+    width: 60px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 10px;
+    color: black;
+}
+
+.logos:hover{
+    cursor: pointer;
+    transition: .4s;
+   
+}
